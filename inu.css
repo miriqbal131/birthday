@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background-color: rgb(192, 193, 255);
+  background-color: rgb(205, 206, 253);
 }
 h1 {
   font-size: 30px;
@@ -66,4 +66,7 @@ p {
 }
 i.fas {
   color: red;
+}
+p {
+  font-size: 15px;
 }
