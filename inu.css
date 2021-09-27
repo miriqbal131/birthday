@@ -3,10 +3,10 @@
   padding: 0;
 }
 body {
-  background-color: aliceblue;
+  background-color: dimgrey;
 }
 h1 {
-  font-size: 30px;
+  font-size: 35px;
   position: relative;
   text-align: center;
   margin: 15px;
@@ -25,7 +25,7 @@ h3 {
   height: 300px;
 }
 #iloveu {
-  margin: 20px 0;
+  margin: 20px;
   width: 250px;
   height: 300px;
 }
@@ -68,7 +68,8 @@ p {
 i.fas {
   color: red;
 }
-p {
-  font-size: 18px;
+em {
+  font-size: 20px;
 }
+
 
