@@ -1,9 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 body {
   background-color: dimgrey;
+  background: #eecda3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ef629f, #eecda3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ef629f, #eecda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+}
+.icons {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.icons i {
+  font-size: 30px;
+}
+i.fa-heart {
+  color: red;
+  animation: beat 1s infinite alternate forwards;
+}
+@keyframes beat {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+.icons:hover .hidden {
+  display: block;
+}
+.hidden {
+  background-color: #ef629f;
+  position: absolute;
+  top: 16px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  z-index: 10;
+  display: none;
+}
+.hidden ul li {
+  list-style: none;
+  margin: 10px 20px;
+  text-align: center;
+}
+.hidden ul li:nth-child(2n-1) {
+  font-weight: 900;
+}
+.hidden ul li i {
+  font-size: 14px;
 }
 h1 {
   font-size: 35px;
@@ -65,11 +115,7 @@ p {
   width: auto;
   max-width: 100%;
 }
-i.fas {
-  color: red;
-}
+
 em {
   font-size: 20px;
 }
-
-
