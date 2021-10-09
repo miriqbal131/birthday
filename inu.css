@@ -129,7 +129,7 @@ em {
 }
 #float {
   position: relative;
-  animation: float 8s linear infinite alternate;
+  animation: float 8s linear 1 alternate;
 }
 @keyframes float {
   from {
